@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ProductService } from 'src/app/services/product.service'
+import { Product } from 'src/app/models/product';
+// import { WishlistService } from 'src/app/services/wishlist.service';
+
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -7,9 +11,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductListComponent implements OnInit {
 
-  constructor() { }
+  productList: Product[] = []
+  wishlist: number[] = []
 
-  ngOnInit(): void {
+  constructor(
+    private productService: ProductService,
+    // private wishlistService: WishlistService
+  ) { }
+
+  ngOnInit() {
+    this.productList = this.productService.getProducts()
+    // this.loadWishlist();
   }
 
+  // loadProducts() {
+  //   this.productService.getProducts().subscribe((products) => {
+  //     this.productList = products;
+  //   })
+  // }
+
+  // loadWishlist() {
+  //   this.wishlistService.getWishlist().subscribe(productIds => {
+  //     this.wishlist = productIds
+  //   })
+  // }
 }

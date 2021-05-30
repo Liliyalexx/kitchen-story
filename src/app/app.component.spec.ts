@@ -21,6 +21,7 @@ describe('AppComponent', () => {
     const app = fixture.componentInstance;
     expect(app.title).toEqual('kitchen-story');
   });
+  
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
