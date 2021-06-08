@@ -1,0 +1,68 @@
+{
+    "products":[
+        {
+           "id":1,
+            "name":"The Daily Meal",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "imageUrl": "https://thumbor.thedailymeal.com/8y2crmTl4zBDxgHZJc0Lphm2Bdw=/870x565/filters:format(webp)/https://www.thedailymeal.com/sites/default/files/slideshows/1943277/2108053/Cumin.jpg", 
+            "price": 15
+        },
+          {
+           "id":2,
+            "name":"Winter Vegetable Meal Prep Bowls",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "imageUrl": "https://www.heynutritionlady.com/wp-content/uploads/2018/01/winter_vegetable_meal_prep_bowls_3-500x453.jpg", 
+            "price": 20
+        },
+          {
+           "id":3,
+            "name":"Healthy Meal Prep Breakfast",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "imageUrl": "https://peychoosingbalance.com/wp-content/uploads/2018/11/Healthy-Meal-Prep-.jpg", 
+            "price": 21
+        },
+          {
+           "id":4,
+            "name":"My Berry Forest",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "imageUrl": "https://sweetpeasandsaffron.com/wp-content/uploads/2019/11/turkey-taco-lunch-bowls-3.jpg", 
+            "price": 16
+        },
+          {
+           "id":5,
+            "name":"Sausage and Potatoes Skillet Meal",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "imageUrl": "https://www.chelseasmessyapron.com/wp-content/uploads/2019/04/Sausage-and-Potatoes-Skillet-Meal-2.jpg", 
+            "price": 12
+        },  
+        {
+           "id":6,
+            "name":"Korean Beef Bowl Meal Prep",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "imageUrl": "https://s23209.pcdn.co/wp-content/uploads/2017/04/Korean-Beef-Bowl-Meal-PrepIMG_6228.jpg", 
+            "price": 10
+        }
+        
+    ],
+    "cart": [],
+    
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+      {
+    "name": "typicode"
+  }
+      ]
+}
