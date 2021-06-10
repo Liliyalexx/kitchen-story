@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Product } from 'src/app/models/product';
 import {MessengerService } from 'src/app/services/messenger.service';
-import { ProductService } from 'src/app/services/product.service';
-import {CartService } from 'src/app/services/cart.service'
+import {CartService } from 'src/app/services/cart.service';
+import { NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-product-item',
